@@ -7,7 +7,6 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.util.StringUtils;
-import com.lukaklacar.reviews.model.User;
 
 /**
  * Created by Luka on 9/3/2016.
@@ -55,7 +54,7 @@ public class CustomUserDetails extends com.lukaklacar.reviews.model.User impleme
 
     @Override
     public String getUsername() {
-        return super.getUserName();
+        return super.getUsername();
     }
 
 
